@@ -143,4 +143,104 @@ LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc
+ /usr/include/c++/11/bits/istream.tcc \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Clock.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Lock.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Mutex.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Sleep.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/String.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
+ /usr/include/c++/11/bits/stl_relops.h \
+ /usr/include/c++/11/bits/stl_algo.h \
+ /usr/include/c++/11/bits/algorithmfwd.h \
+ /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/stl_tempbuf.h \
+ /usr/include/c++/11/bits/uniform_int_dist.h /usr/include/c++/11/locale \
+ /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11/bits/locale_conv.h \
+ /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
+ /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/invoke.h \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/String.inl \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Thread.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Thread.inl \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/ThreadLocal.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/ThreadLocalPtr.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/ThreadLocalPtr.inl \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Clipboard.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Event.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Touch.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/Window.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/CircleShape.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Shape.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/ConvexShape.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Font.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Glyph.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
+ /usr/include/c++/11/ext/aligned_buffer.h \
+ /usr/include/c++/11/bits/stl_map.h \
+ /usr/include/c++/11/bits/stl_multimap.h \
+ /usr/include/c++/11/bits/erase_if.h \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/View.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Shader.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Glsl.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Glsl.inl \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
+ /Data/C++/LightYearsGame/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp

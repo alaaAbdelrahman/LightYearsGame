@@ -92,6 +92,10 @@ LIGHT_YEARS_GAME_TARGET_NAME_EXTERNAL_OBJECTS =
 
 bin/LIGHT_YEARS_GAME_TARGET_NAME: LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/src/main.cpp.o
 bin/LIGHT_YEARS_GAME_TARGET_NAME: LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build.make
+bin/LIGHT_YEARS_GAME_TARGET_NAME: _deps/sfml-build/lib/libsfml-graphics.so.2.5.1
+bin/LIGHT_YEARS_GAME_TARGET_NAME: _deps/sfml-build/lib/libsfml-window.so.2.5.1
+bin/LIGHT_YEARS_GAME_TARGET_NAME: _deps/sfml-build/lib/libsfml-audio.so.2.5.1
+bin/LIGHT_YEARS_GAME_TARGET_NAME: _deps/sfml-build/lib/libsfml-system.so.2.5.1
 bin/LIGHT_YEARS_GAME_TARGET_NAME: LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Data/C++/LightYearsGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/LIGHT_YEARS_GAME_TARGET_NAME"
 	cd /Data/C++/LightYearsGame/build/LightYear && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/link.txt --verbose=$(VERBOSE)

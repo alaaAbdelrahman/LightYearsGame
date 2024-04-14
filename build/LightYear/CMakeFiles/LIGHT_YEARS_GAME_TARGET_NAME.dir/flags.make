@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Data/C++/LightYearsGame/build/_deps/sfml-src/include
 
 CXX_FLAGS = -std=c++14
 
