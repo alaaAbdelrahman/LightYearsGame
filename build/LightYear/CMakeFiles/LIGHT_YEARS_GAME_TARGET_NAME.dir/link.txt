@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/src/main.cpp.o -o ../bin/LIGHT_YEARS_GAME_TARGET_NAME 

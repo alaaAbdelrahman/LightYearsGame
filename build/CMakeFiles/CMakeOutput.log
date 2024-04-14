@@ -1,0 +1,55 @@
+The system is: Linux - 6.5.0-26-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Data/C++/LightYearsGame/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Data/C++/LightYearsGame/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Data/C++/LightYearsGame/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad193/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad193.dir/build.make CMakeFiles/cmTC_ad193.dir/build
+gmake[1]: Entering directory '/Data/C++/LightYearsGame/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad193.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ad193.dir/testCCompiler.c.o -c /Data/C++/LightYearsGame/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ad193
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad193.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ad193.dir/testCCompiler.c.o -o cmTC_ad193 
+gmake[1]: Leaving directory '/Data/C++/LightYearsGame/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Data/C++/LightYearsGame/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8a941/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8a941.dir/build.make CMakeFiles/cmTC_8a941.dir/build
+gmake[1]: Entering directory '/Data/C++/LightYearsGame/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a941.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_8a941.dir/testCXXCompiler.cxx.o -c /Data/C++/LightYearsGame/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_8a941
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a941.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_8a941.dir/testCXXCompiler.cxx.o -o cmTC_8a941 
+gmake[1]: Leaving directory '/Data/C++/LightYearsGame/build/CMakeFiles/CMakeTmp'
+
+
+

@@ -1,0 +1,5 @@
+/Data/C++/LightYearsGame/build/CMakeFiles/edit_cache.dir
+/Data/C++/LightYearsGame/build/CMakeFiles/rebuild_cache.dir
+/Data/C++/LightYearsGame/build/LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir
+/Data/C++/LightYearsGame/build/LightYear/CMakeFiles/edit_cache.dir
+/Data/C++/LightYearsGame/build/LightYear/CMakeFiles/rebuild_cache.dir
