@@ -81,7 +81,7 @@ clean: _deps/sfml-build/clean
 # Directory level rules for directory LightYear
 
 # Recursive "all" directory target.
-LightYear/all: LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/all
+LightYear/all: LightYear/CMakeFiles/LightYearsGame.dir/all
 .PHONY : LightYear/all
 
 # Recursive "preinstall" directory target.
@@ -89,7 +89,7 @@ LightYear/preinstall:
 .PHONY : LightYear/preinstall
 
 # Recursive "clean" directory target.
-LightYear/clean: LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/clean
+LightYear/clean: LightYear/CMakeFiles/LightYearsGame.dir/clean
 .PHONY : LightYear/clean
 
 #=============================================================================
@@ -210,33 +210,33 @@ _deps/sfml-build/src/SFML/Window/clean: _deps/sfml-build/src/SFML/Window/CMakeFi
 .PHONY : _deps/sfml-build/src/SFML/Window/clean
 
 #=============================================================================
-# Target rules for target LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir
+# Target rules for target LightYear/CMakeFiles/LightYearsGame.dir
 
 # All Build rule for target.
-LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
-LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/all: _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
-LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
-LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/all: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
-	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build.make LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/depend
-	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build.make LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Data/C++/LightYearsGame/build/CMakeFiles --progress-num=1 "Built target LIGHT_YEARS_GAME_TARGET_NAME"
-.PHONY : LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/all
+LightYear/CMakeFiles/LightYearsGame.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
+LightYear/CMakeFiles/LightYearsGame.dir/all: _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
+LightYear/CMakeFiles/LightYearsGame.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
+LightYear/CMakeFiles/LightYearsGame.dir/all: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
+	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/depend
+	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Data/C++/LightYearsGame/build/CMakeFiles --progress-num=1 "Built target LightYearsGame"
+.PHONY : LightYear/CMakeFiles/LightYearsGame.dir/all
 
 # Build rule for subdir invocation for target.
-LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/rule: cmake_check_build_system
+LightYear/CMakeFiles/LightYearsGame.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Data/C++/LightYearsGame/build/CMakeFiles 90
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LightYear/CMakeFiles/LightYearsGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Data/C++/LightYearsGame/build/CMakeFiles 0
-.PHONY : LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/rule
+.PHONY : LightYear/CMakeFiles/LightYearsGame.dir/rule
 
 # Convenience name for target.
-LIGHT_YEARS_GAME_TARGET_NAME: LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/rule
-.PHONY : LIGHT_YEARS_GAME_TARGET_NAME
+LightYearsGame: LightYear/CMakeFiles/LightYearsGame.dir/rule
+.PHONY : LightYearsGame
 
 # clean rule for target.
-LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/clean:
-	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build.make LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/clean
-.PHONY : LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/clean
+LightYear/CMakeFiles/LightYearsGame.dir/clean:
+	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/clean
+.PHONY : LightYear/CMakeFiles/LightYearsGame.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir

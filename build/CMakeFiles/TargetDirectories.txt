@@ -4,7 +4,7 @@
 /Data/C++/LightYearsGame/build/CMakeFiles/install.dir
 /Data/C++/LightYearsGame/build/CMakeFiles/install/local.dir
 /Data/C++/LightYearsGame/build/CMakeFiles/install/strip.dir
-/Data/C++/LightYearsGame/build/LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir
+/Data/C++/LightYearsGame/build/LightYear/CMakeFiles/LightYearsGame.dir
 /Data/C++/LightYearsGame/build/LightYear/CMakeFiles/edit_cache.dir
 /Data/C++/LightYearsGame/build/LightYear/CMakeFiles/rebuild_cache.dir
 /Data/C++/LightYearsGame/build/LightYear/CMakeFiles/list_install_components.dir

@@ -97,7 +97,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/DependInfo.cmake"
+  "LightYear/CMakeFiles/LightYearsGame.dir/DependInfo.cmake"
   "_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
   "_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
   "_deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/DependInfo.cmake"

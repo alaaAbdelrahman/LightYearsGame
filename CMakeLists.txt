@@ -21,7 +21,7 @@ set(LIGHT_YEARS_GAME_TARGET_NAME    LightYearsGame )
 add_subdirectory(LightYear)
 
 #to set the properties of target such as location
-set_target_properties(LIGHT_YEARS_GAME_TARGET_NAME PROPERTIES
+set_target_properties(${LIGHT_YEARS_GAME_TARGET_NAME} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
 )
 
@@ -41,7 +41,6 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(${SFML_LIB_NAME})  #make libraries available for use 
 
-target_link_libraries(LIGHT_YEARS_GAME_TARGET_NAME PUBLIC sfml-graphics sfml-window sfml-system   sfml-audio)
 
 
 

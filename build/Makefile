@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LIGHT_YEARS_GAME_TARGET_NAME
+# Target rules for targets named LightYearsGame
 
 # Build rule for target.
-LIGHT_YEARS_GAME_TARGET_NAME: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LIGHT_YEARS_GAME_TARGET_NAME
-.PHONY : LIGHT_YEARS_GAME_TARGET_NAME
+LightYearsGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LightYearsGame
+.PHONY : LightYearsGame
 
 # fast build rule for target.
-LIGHT_YEARS_GAME_TARGET_NAME/fast:
-	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build.make LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build
-.PHONY : LIGHT_YEARS_GAME_TARGET_NAME/fast
+LightYearsGame/fast:
+	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/build
+.PHONY : LightYearsGame/fast
 
 #=============================================================================
 # Target rules for targets named sfml-system
@@ -251,7 +251,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... LIGHT_YEARS_GAME_TARGET_NAME"
+	@echo "... LightYearsGame"
 	@echo "... sfml-audio"
 	@echo "... sfml-graphics"
 	@echo "... sfml-network"

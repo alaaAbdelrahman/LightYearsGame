@@ -162,25 +162,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/rule:
-	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/rule
-.PHONY : LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/rule
+LightYear/CMakeFiles/LightYearsGame.dir/rule:
+	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LightYear/CMakeFiles/LightYearsGame.dir/rule
+.PHONY : LightYear/CMakeFiles/LightYearsGame.dir/rule
 
 # Convenience name for target.
-LIGHT_YEARS_GAME_TARGET_NAME: LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/rule
-.PHONY : LIGHT_YEARS_GAME_TARGET_NAME
+LightYearsGame: LightYear/CMakeFiles/LightYearsGame.dir/rule
+.PHONY : LightYearsGame
 
 # fast build rule for target.
-LIGHT_YEARS_GAME_TARGET_NAME/fast:
-	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build.make LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build
-.PHONY : LIGHT_YEARS_GAME_TARGET_NAME/fast
+LightYearsGame/fast:
+	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/build
+.PHONY : LightYearsGame/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build.make LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/src/main.cpp.o
+	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -188,7 +188,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build.make LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/src/main.cpp.i
+	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -196,7 +196,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/build.make LightYear/CMakeFiles/LIGHT_YEARS_GAME_TARGET_NAME.dir/src/main.cpp.s
+	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -211,7 +211,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... LIGHT_YEARS_GAME_TARGET_NAME"
+	@echo "... LightYearsGame"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
