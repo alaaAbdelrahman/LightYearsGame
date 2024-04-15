@@ -13,7 +13,13 @@ namespace ly
         
     
     private:
+    void Tick(float deltaTime);
+
+
     sf::RenderWindow mWindow;
+    sf::Clock mTickClock;        // to get the time 
+
+    float mTargetFrameRate;     // to define the frame rate frequency
         
     };
     
