@@ -175,6 +175,30 @@ LightYearsGame/fast:
 	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/build
 .PHONY : LightYearsGame/fast
 
+src/framework/Application.o: src/framework/Application.cpp.o
+.PHONY : src/framework/Application.o
+
+# target to build an object file
+src/framework/Application.cpp.o:
+	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/src/framework/Application.cpp.o
+.PHONY : src/framework/Application.cpp.o
+
+src/framework/Application.i: src/framework/Application.cpp.i
+.PHONY : src/framework/Application.i
+
+# target to preprocess a source file
+src/framework/Application.cpp.i:
+	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/src/framework/Application.cpp.i
+.PHONY : src/framework/Application.cpp.i
+
+src/framework/Application.s: src/framework/Application.cpp.s
+.PHONY : src/framework/Application.s
+
+# target to generate assembly for a file
+src/framework/Application.cpp.s:
+	cd /Data/C++/LightYearsGame/build && $(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/src/framework/Application.cpp.s
+.PHONY : src/framework/Application.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -212,6 +236,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... LightYearsGame"
+	@echo "... src/framework/Application.o"
+	@echo "... src/framework/Application.i"
+	@echo "... src/framework/Application.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

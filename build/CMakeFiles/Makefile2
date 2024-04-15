@@ -219,7 +219,7 @@ LightYear/CMakeFiles/LightYearsGame.dir/all: _deps/sfml-build/src/SFML/Graphics/
 LightYear/CMakeFiles/LightYearsGame.dir/all: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Data/C++/LightYearsGame/build/CMakeFiles --progress-num=1 "Built target LightYearsGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Data/C++/LightYearsGame/build/CMakeFiles --progress-num=1,2 "Built target LightYearsGame"
 .PHONY : LightYear/CMakeFiles/LightYearsGame.dir/all
 
 # Build rule for subdir invocation for target.
@@ -350,12 +350,12 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/clean:
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Data/C++/LightYearsGame/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target sfml-audio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Data/C++/LightYearsGame/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target sfml-audio"
 .PHONY : _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Data/C++/LightYearsGame/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Data/C++/LightYearsGame/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Data/C++/LightYearsGame/build/CMakeFiles 0
 .PHONY : _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule

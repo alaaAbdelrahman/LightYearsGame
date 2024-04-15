@@ -1,6 +1,7 @@
 #include<iostream>
 #include <SFML/Graphics.hpp>
+#include "framework/Application.h"
 int main(){
-    sf::RenderWindow renderWindow{sf::VideoMode(100,100),"MyWindow"};
-    std::cout<<"hello using CMT : CMAKE\n";
+    ly::Application * app = new ly::Application();
+    app->Run();
 }
