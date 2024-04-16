@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../LightYear/CMakeLists.txt"
+  "../LightYearsEngine/CMakeLists.txt"
+  "../LightYearsGame/CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
@@ -76,7 +77,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/sfml-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "LightYear/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LightYearsEngine/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LightYearsGame/CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/sfml-build/tools/pkg-config/sfml-all.pc"
   "_deps/sfml-build/tools/pkg-config/sfml-system.pc"
   "_deps/sfml-build/tools/pkg-config/sfml-window.pc"
@@ -97,7 +99,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "LightYear/CMakeFiles/LightYearsGame.dir/DependInfo.cmake"
+  "LightYearsEngine/CMakeFiles/LightYearsEngine.dir/DependInfo.cmake"
+  "LightYearsGame/CMakeFiles/LightYearsGame.dir/DependInfo.cmake"
   "_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
   "_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
   "_deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/DependInfo.cmake"

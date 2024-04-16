@@ -15,13 +15,16 @@ set(CMAKE_CXX_STANDARD_REQUIRED  ON)
 set(CMAKE_CXX_EXTENSIONS        OFF)
 
 #set variable in CMAKE
+set(LIGHT_YEARS_ENGINE_TARGET_NAME    LightYearsEngine)
 set(LIGHT_YEARS_GAME_TARGET_NAME    LightYearsGame )
 
+
 #to include cmake file inside another --> give location where search for cmake file (CmakeLists.txt)
-add_subdirectory(LightYear)
+add_subdirectory(LightYearsEngine)
+add_subdirectory(LightYearsGame)
 
 #to set the properties of target such as location
-set_target_properties(${LIGHT_YEARS_GAME_TARGET_NAME} PROPERTIES
+set_target_properties(${LIGHT_YEARS_ENGINE_TARGET_NAME} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
 )
 

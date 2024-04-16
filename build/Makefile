@@ -162,6 +162,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named LightYearsEngine
+
+# Build rule for target.
+LightYearsEngine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LightYearsEngine
+.PHONY : LightYearsEngine
+
+# fast build rule for target.
+LightYearsEngine/fast:
+	$(MAKE) $(MAKESILENT) -f LightYearsEngine/CMakeFiles/LightYearsEngine.dir/build.make LightYearsEngine/CMakeFiles/LightYearsEngine.dir/build
+.PHONY : LightYearsEngine/fast
+
+#=============================================================================
 # Target rules for targets named LightYearsGame
 
 # Build rule for target.
@@ -171,7 +184,7 @@ LightYearsGame: cmake_check_build_system
 
 # fast build rule for target.
 LightYearsGame/fast:
-	$(MAKE) $(MAKESILENT) -f LightYear/CMakeFiles/LightYearsGame.dir/build.make LightYear/CMakeFiles/LightYearsGame.dir/build
+	$(MAKE) $(MAKESILENT) -f LightYearsGame/CMakeFiles/LightYearsGame.dir/build.make LightYearsGame/CMakeFiles/LightYearsGame.dir/build
 .PHONY : LightYearsGame/fast
 
 #=============================================================================
@@ -251,6 +264,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... LightYearsEngine"
 	@echo "... LightYearsGame"
 	@echo "... sfml-audio"
 	@echo "... sfml-graphics"

@@ -1,18 +1,15 @@
+add_executable(${LIGHT_YEARS_GAME_TARGET_NAME}  
 
-add_executable(${LIGHT_YEARS_GAME_TARGET_NAME}
-
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/include/framework/Application.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/framework/Application.cpp
-
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/gameFramework/GameApplication.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/gameFramework/GameApplication.cpp
 )
 
 #define the directories to serach for 
 target_include_directories(${LIGHT_YEARS_GAME_TARGET_NAME} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/include/
     )
-
-target_link_libraries(${LIGHT_YEARS_GAME_TARGET_NAME} PUBLIC sfml-graphics sfml-window sfml-system   sfml-audio)
+# link with Target_game_engine that use Smfl
+target_link_libraries(${LIGHT_YEARS_GAME_TARGET_NAME} PUBLIC ${LIGHT_YEARS_ENGINE_TARGET_NAME})
 ######################################################################################################
 
 ####################### postbuild configuration #################################################
@@ -47,7 +44,7 @@ function(CopyLibToTarget LIB_NAME TARGET_NAME)
       POST_BUILD  
       COMMAND
       ${CMAKE_COMMAND} -E copy_if_different
-      $<TARGET_FILE:${LIB_NAME}>
+      $<TARGET_FILE_DIR:${LIB_NAME}>
       $<TARGET_FILE_DIR:${TARGET_NAME}>
       )
     
@@ -55,7 +52,5 @@ endfunction()
 
 #calling function 
 
-CopyLibToTarget(sfml-graphics ${LIGHT_YEARS_GAME_TARGET_NAME})
-CopyLibToTarget(sfml-window ${LIGHT_YEARS_GAME_TARGET_NAME})
-CopyLibToTarget(sfml-system ${LIGHT_YEARS_GAME_TARGET_NAME})
-CopyLibToTarget(sfml-audio ${LIGHT_YEARS_GAME_TARGET_NAME})
+CopyLibToTarget(${LIGHT_YEARS_ENGINE_TARGET_NAME} ${LIGHT_YEARS_GAME_TARGET_NAME})
+
