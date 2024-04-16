@@ -4,6 +4,7 @@
 
 #include "framework/Application.h"
 
+#include "framework/Core.h"
 
 using namespace ly;
 
@@ -76,5 +77,7 @@ void Application:: Render(){
     mWindow.draw(circle);
 }
 void Application::Tick(float deltaTime){
+
+    LOG("ticking at framerate %f",deltaTime);
 
 }
