@@ -37,7 +37,8 @@ using namespace ly;
             while(accumulatedTime > targetDeltaTime)
             {
                 accumulatedTime -= targetDeltaTime;
-                Tick(targetDeltaTime);
+                TickInternal(targetDeltaTime);
+                RenderInternal();
             }
 
 
@@ -45,7 +46,35 @@ using namespace ly;
         
     }
 
- void Application::Tick(float deltaTime){
+ void Application::TickInternal(float deltaTime){
 
-    std::cout<< "ticking at frame Rate: "<<1.f/deltaTime<<std::endl;
+    Tick(deltaTime);
  }
+
+void Application:: RenderInternal(){
+    //clear and display the changes by render
+    mWindow.clear();
+
+    // virtual function so the client can use it to render what it want 
+    Render();
+
+    //display what renedered
+    mWindow.display();
+    
+}
+
+void Application:: Render(){
+
+    sf::CircleShape circle(50);
+
+    circle.setFillColor(sf::Color::Green);
+
+    circle.setOrigin(50,50);
+
+    circle.setPosition(mWindow.getSize().x/2.f,mWindow.getSize().y/2.f );
+
+    mWindow.draw(circle);
+}
+void Application::Tick(float deltaTime){
+
+}
