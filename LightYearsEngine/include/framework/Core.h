@@ -1,6 +1,7 @@
 #ifndef CORE_H_
 #define CORE_H_
 #include<stdio.h>
+#include<vector>
 #include<memory>
 #include<map>
 #include<unordered_map>
@@ -19,15 +20,15 @@ template<typename T>
     using weak = std::weak_ptr<T>;
 template<typename T>
     using List = std::vector<T>;
-template<typename keytype , typename valuetype ,typename pr = std::less<keyType>>
+template<typename keytype , typename valuetype ,typename pr = std::less<keytype>>
     using Map = std::map<keytype,valuetype,pr>;
 // dictionary is faster than map 
-template<typename keytype , typename valuetype ,typename hasher = std::hash<keyType>>
-    using Doctionary = std::unorderedmap<keytype,valuetype,hasher>;
+template<typename keytype , typename valuetype ,typename hasher = std::hash<keytype>>
+    using Doctionary = std::unordered_map<keytype,valuetype,hasher>;
 
 
     //define macro for loging
-    #define LOG(M, ...)   printf(M "\n", __VA_ARGS__)
+    #define LOG(M, ...)   printf(M, ##__VA_ARGS__)
     
 }
 
