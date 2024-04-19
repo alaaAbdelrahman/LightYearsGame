@@ -10,8 +10,9 @@ namespace ly
 {
     GameApplication::GameApplication(){
 
-     std::weak_ptr<World> weakWorld = LoadWorld<World>();
-
+     std::weak_ptr<World> newWorld = LoadWorld<World>();
+     newWorld.lock()->SpawnActor<Actor>();
+     
 
     }
 }
